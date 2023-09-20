@@ -3,9 +3,9 @@ package music;
 public class Song {
 	private String name;
 	private String lyrics;
-	private Genre[] genre;
+	private Genre genre;
 	
-	public Song(String pName,String pLyrics, Genre[] pGenre) {
+	public Song(String pName,String pLyrics, Genre pGenre) {
 		name = pName;
 		lyrics = pLyrics;
 		genre = pGenre;
@@ -25,10 +25,10 @@ public class Song {
 	public void setLyrics(String lyrics) {
 		this.lyrics = lyrics;
 	}
-	public Genre[] getGenre() {
+	public Genre getGenre() {
 		return genre;
 	}
-	public void setGenre(Genre[] genre) {
+	public void setGenre(Genre genre) {
 		this.genre = genre;
 	}
 	
