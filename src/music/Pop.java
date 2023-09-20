@@ -1,9 +1,9 @@
 package music;
 
-public class Pop {
+public class Pop extends Genre{
 
 	public Pop() {
-		// TODO Auto-generated constructor stub
+		super("Pop",false, [guitar, bass, synths]);
 	}
 
 }

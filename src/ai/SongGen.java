@@ -18,4 +18,9 @@ public class SongGen {
 		 song = new Song(name,lyrics,genres);
 	}
 	
+	public void addGenres(Genre[] pGenre) {
+		System.out.println("adding genres to the song");
+		 song.setGenre(pGenre);
+	}
+	
 }
